@@ -3,6 +3,7 @@ name = "py-docker-gadgets"
 version = "0.1.0"
 description = "Some convenience tools for managing docker containers in python"
 authors = ["Tucker Beck <tucker.beck@gmail.com>"]
+readme = "README.rst"
 packages = [ { include = "docker_gadgets" } ]
 
 [tool.poetry.dependencies]
