@@ -25,7 +25,7 @@ Example Usage
 
 Here's a very basic example of how this could be used:
 
-.. code-block::python
+.. code-block:: python
 
    from docker_gadgets import start_service, stop_service
 
