@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py-docker-gadgets"
-version = "0.1.0"
+version = "0.1.1"
 description = "Some convenience tools for managing docker containers in python"
 authors = ["Tucker Beck <tucker.beck@gmail.com>"]
 readme = "README.rst"

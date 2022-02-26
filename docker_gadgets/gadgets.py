@@ -14,6 +14,7 @@ def start_service(
     command=None,
     extra_hosts=None,
     network=None,
+    tmpfs=None,
 ):
     logger.debug(f"Starting service '{container_name}'")
     client = docker.from_env()
@@ -41,6 +42,7 @@ def start_service(
         volumes=volumes,
         network=network,
         extra_hosts=extra_hosts,
+        tmpfs=tmpfs,
         restart_policy=dict(Name="on-failure", MaximumRetryCount=5),
     )
     logger.debug(f"Started container: {container_name} ({container})")

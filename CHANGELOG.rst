@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+v0.1.1 - 2022-02-25
+-------------------
+* Added tmpfs option to ``start_service``
+
 v0.1.0 - 2022-02-22
 -------------------
 * Moved functions to standalone tools module
